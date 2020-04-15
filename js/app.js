@@ -40,8 +40,7 @@ landing_button.addEventListener("click", function () {
   nav_li4.innerHTML = "<b>Venue</b><br> Info";
   nav_li5.innerHTML = "<b>Corporate</b><br> INFO";
   search.innerHTML = '<i class="gg-search"></i>';
-  button_span.innerHTML =
-    '<i class="fas fa-bars fa-1x"><i class="gg-layout-list ml-4"></i></i>';
+  button_span.innerHTML = '<i class="fas fa-bars fa-1x ml-4"></i>';
   jumbo_h1.innerHTML = "<b>UPCOMING</b> EVENTS";
   event_select.innerHTML =
     "<option>All Event Types</option><option>Concerts</option><option>Comedy</option><option>Other</option><option>Family</option><option>Bruins</option> <option>Celtics</option>";
@@ -52,6 +51,8 @@ landing_button.addEventListener("click", function () {
   <div class="card-body">
     <p><b>April 15, 2020</b> @ TBA</p>
     <h3 class="card-title"><b>Celtics vs. Bulls</b></h2>
+    <button class="btn btn-dark mt-3 align-content-center">Buy Tickets <i id="btn-arrow" class="fas fa-arrow-right"></i></button>
+    <button class="btn btn-secondary mt-3 align-content-center">Buy Parking</button>
   </div>
 </div>
 <div class="card">
@@ -59,6 +60,8 @@ landing_button.addEventListener("click", function () {
   <div class="card-body">
     <p><b>April 17, 2020</b> @ TBA</p>
     <h3 class="card-title"><b>Bruins vs. Canadiens</b></h2>
+    <button class="btn btn-dark mt-3">Buy Tickets <i id="btn-arrow" class="fas fa-arrow-right"></i></button>
+    <button class="btn btn-secondary mt-3">Buy Parking</button>
   </div>
 </div>
 <div class="card">
@@ -66,6 +69,8 @@ landing_button.addEventListener("click", function () {
   <div class="card-body">
     <p><b>April 18, 2020</b> @ TBA</p>
     <h3 class="card-title"><b>Bruins vs. Heat</b></h2>
+    <button class="btn btn-dark mt-3">Buy Tickets <i id="btn-arrow" class="fas fa-arrow-right"></i></button>
+    <button class="btn btn-secondary mt-3">Buy Parking</button>
   </div>
 </div>
 <div class="card">
@@ -73,6 +78,8 @@ landing_button.addEventListener("click", function () {
   <div class="card-body">
     <p><b>April 19, 2020</b> @ TBA</p>
     <h3 class="card-title"><b>Bruins vs. Jets</b></h2>
+    <button class="btn btn-dark mt-3">Buy Tickets <i id="btn-arrow" class="fas fa-arrow-right"></i></button>
+    <button class="btn btn-secondary mt-3">Buy Parking</button>
   </div>
 </div>
 <div class="card">
@@ -80,6 +87,8 @@ landing_button.addEventListener("click", function () {
   <div class="card-body">
     <p><b>April 22, 2020</b> @ TBA</p>
     <h3 class="card-title"><b>Celtics vs. Hawks</b></h2>
+    <button class="btn btn-dark mt-3">Buy Tickets <i id="btn-arrow" class="fas fa-arrow-right"></i></button>
+    <button class="btn btn-secondary mt-3">Buy Parking</button>
   </div>
 </div>
 <div class="card">
@@ -87,6 +96,8 @@ landing_button.addEventListener("click", function () {
   <div class="card-body">
     <p><b>April 25, 2020</b> @ TBA</p>
     <h3 class="card-title"><b>Janet Jackson</b></h2>
+    <button class="btn btn-dark mt-3">Buy Tickets <i id="btn-arrow" class="fas fa-arrow-right"></i></button>
+    <button class="btn btn-secondary mt-3">Buy Parking</button>
   </div>
 </div>
 <div class="card">
@@ -94,6 +105,8 @@ landing_button.addEventListener("click", function () {
   <div class="card-body">
     <p><b>April 27, 2020</b> @ TBA</p>
     <h3 class="card-title"><b>Bruins vs. Penguins</b></h2>
+    <button class="btn btn-dark mt-3">Buy Tickets <i id="btn-arrow" class="fas fa-arrow-right"></i></button>
+    <button class="btn btn-secondary mt-3">Buy Parking</button>
   </div>
 </div>
 <div class="card">
@@ -101,6 +114,8 @@ landing_button.addEventListener("click", function () {
   <div class="card-body">
     <p><b>April 30, 2020</b> @ TBA</p>
     <h3 class="card-title"><b>My Chemical Romance</b></h2>
+    <button class="btn btn-dark mt-3">Buy Tickets <i id="btn-arrow" class="fas fa-arrow-right"></i></button>
+    <button class="btn btn-secondary mt-3">Buy Parking</button>
   </div>
 </div>
 <div class="card">
@@ -108,6 +123,8 @@ landing_button.addEventListener("click", function () {
   <div class="card-body">
     <p><b>May 2, 2020</b> @ TBA</p>
     <h3 class="card-title"><b>WWE SmackDown</b></h2>
+    <button class="btn btn-dark mt-3">Buy Tickets <i id="btn-arrow" class="fas fa-arrow-right"></i></button>
+    <button class="btn btn-secondary mt-3">Buy Parking</button>
   </div>
 </div>
 <div class="card">
@@ -115,6 +132,8 @@ landing_button.addEventListener("click", function () {
   <div class="card-body">
     <p><b>July 11, 2020</b> @ TBA</p>
     <h3 class="card-title"><b>The Weekend</b></h2>
+    <button class="btn btn-dark mt-3">Buy Tickets <i id="btn-arrow" class="fas fa-arrow-right"></i></button>
+    <button class="btn btn-secondary mt-3">Buy Parking</button>
   </div>
 </div>
 <div class="card">
@@ -122,6 +141,8 @@ landing_button.addEventListener("click", function () {
   <div class="card-body">
     <p><b>July 16-17, 2020</b> @ TBA</p>
     <h3 class="card-title"><b>Bon Jovi</b></h2>
+    <button class="btn btn-dark mt-3">Buy Tickets <i id="btn-arrow" class="fas fa-arrow-right"></i></button>
+    <button class="btn btn-secondary mt-3">Buy Parking</button>
   </div>
 </div>
 <div class="card">
@@ -129,6 +150,8 @@ landing_button.addEventListener("click", function () {
   <div class="card-body">
     <p><b>July 23, 2020</b> @ TBA</p>
     <h3 class="card-title"><b>Dude Perfect</b></h3>
+    <button class="btn btn-dark mt-3">Buy Tickets <i id="btn-arrow" class="fas fa-arrow-right"></i></button>
+    <button class="btn btn-secondary mt-3">Buy Parking</button>
   </div>
 </div>`;
 
@@ -174,5 +197,5 @@ landing_button.addEventListener("click", function () {
   jumbo_h1.classList.add("col-sm", "jumbo-h1");
   grid_image.classList.add("col-sm-2", "grid-image");
   card_container.classList.add("container");
-  card_column.classList.add("card-columns");
+  card_column.classList.add("card-columns", "mt-3");
 });
