@@ -167,8 +167,8 @@ landing_button.addEventListener("click", function () {
   document.body.append(nav_div, container_div, card_container);
 
   //BOOTSTRAP/STYLE ELEMENTS
-  td_image.setAttribute("src", "/TD Clone/images/td_logo.png");
-  grid_image.setAttribute("src", "/TD Clone/images/grid_view.png");
+  td_image.setAttribute("src", "td_logo.png");
+  grid_image.setAttribute("src", "grid_view.png");
   td_image.classList.add("mr-4");
   nav_button.classList.add("navbar-toggler", "toggler-example");
   nav_button.setAttribute("type", "button");
